@@ -28,7 +28,9 @@
 		DFD87D0A17DF114D00B224A5 /* FermiDistributionFunction */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FermiDistributionFunction; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD87D0D17DF114D00B224A5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		DFD87D0F17DF114D00B224A5 /* FermiDistributionFunction.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = FermiDistributionFunction.1; sourceTree = "<group>"; };
-		DFD87D1617DF118F00B224A5 /* Constants.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Constants.hpp; sourceTree = "<group>"; };
+		DFD87D1617DF118F00B224A5 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		DFD87D1817E06B2B00B224A5 /* FermiDistributionFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FermiDistributionFunction.h; sourceTree = "<group>"; };
+		DFD87D1A17E0709300B224A5 /* Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +65,9 @@
 			children = (
 				DFD87D0D17DF114D00B224A5 /* main.cpp */,
 				DFD87D0F17DF114D00B224A5 /* FermiDistributionFunction.1 */,
-				DFD87D1617DF118F00B224A5 /* Constants.hpp */,
+				DFD87D1617DF118F00B224A5 /* Constants.h */,
+				DFD87D1817E06B2B00B224A5 /* FermiDistributionFunction.h */,
+				DFD87D1A17E0709300B224A5 /* Utility.h */,
 			);
 			path = FermiDistributionFunction;
 			sourceTree = "<group>";

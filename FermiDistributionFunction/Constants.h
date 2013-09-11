@@ -20,19 +20,15 @@ const long double e = 1.60217657e-19;
 //boltzmann constant [J/K]
 const long double k_b = 1.3806488e-23;
 //mass of electron [g]
-const long double m_e = 9.10938291e-34;
+const long double m_0 = 9.10938291e-34;
 //effective mass of electron in InP [g]
-const long double m_ee = 0.082*m_e;
+const long double m_ee = 0.082*m_0;
 //effective mass of hole in InP [g]
-const long double m_eh = 0.6*m_e;
+const long double m_eh = 0.6*m_0;
 //bandgap in InP [J]
 const long double E_g = 1.27*e;
 //device length [m]
-const long double wide = 10e-9;
+const long double width = 10e-9;
 //device depth [m]
 const long double depth = 1e-7;
-//bottom conduction band energy [J]
-const long double E_c = 1.0/16.0 * h*h/(m_e*wide*wide);
-//bottom conduction band energy [J]
-const long double E_v = 1.0/24.0 * h*h/(m_e*wide*wide);
 #endif
